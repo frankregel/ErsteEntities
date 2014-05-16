@@ -22,6 +22,8 @@
 		77D3DDEB1925F9110078CCFB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D3DDCF1925F9110078CCFB /* CoreData.framework */; };
 		77D3DDF31925F9110078CCFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77D3DDF11925F9110078CCFB /* InfoPlist.strings */; };
 		77D3DDF51925F9110078CCFB /* ErsteEntitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D3DDF41925F9110078CCFB /* ErsteEntitiesTests.m */; };
+		77D3DDFF1925F99C0078CCFB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D3DDFE1925F99C0078CCFB /* Storyboard.storyboard */; };
+		77D3DE021925F9F60078CCFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D3DE011925F9F60078CCFB /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		77D3DDF01925F9110078CCFB /* ErsteEntitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ErsteEntitiesTests-Info.plist"; sourceTree = "<group>"; };
 		77D3DDF21925F9110078CCFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77D3DDF41925F9110078CCFB /* ErsteEntitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErsteEntitiesTests.m; sourceTree = "<group>"; };
+		77D3DDFE1925F99C0078CCFB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		77D3DE001925F9F60078CCFB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77D3DE011925F9F60078CCFB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,9 @@
 				77D3DDDB1925F9110078CCFB /* AppDelegate.m */,
 				77D3DDE01925F9110078CCFB /* Images.xcassets */,
 				77D3DDDD1925F9110078CCFB /* ErsteEntities.xcdatamodeld */,
+				77D3DDFE1925F99C0078CCFB /* Storyboard.storyboard */,
+				77D3DE001925F9F60078CCFB /* ViewController.h */,
+				77D3DE011925F9F60078CCFB /* ViewController.m */,
 				77D3DDD21925F9110078CCFB /* Supporting Files */,
 			);
 			path = ErsteEntities;
@@ -230,6 +238,7 @@
 			files = (
 				77D3DDD61925F9110078CCFB /* InfoPlist.strings in Resources */,
 				77D3DDE11925F9110078CCFB /* Images.xcassets in Resources */,
+				77D3DDFF1925F99C0078CCFB /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +259,7 @@
 			files = (
 				77D3DDDC1925F9110078CCFB /* AppDelegate.m in Sources */,
 				77D3DDD81925F9110078CCFB /* main.m in Sources */,
+				77D3DE021925F9F60078CCFB /* ViewController.m in Sources */,
 				77D3DDDF1925F9110078CCFB /* ErsteEntities.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
